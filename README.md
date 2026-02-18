@@ -5,6 +5,8 @@ Developed by hysspy
 ![Samplex](https://github.com/user-attachments/assets/4836dda5-9e09-47e3-b9e4-febe7c8698b2)
 
 Privacy Guard Pro is a high-security system lockdown utility for Windows designed to prevent physical intruders from accessing your workstation. Unlike standard Windows locks, this tool utilizes Low-Level Input Hooking to prevent system bypass and Smart Sensors to adapt to your activity.
+
+
 ✨ Key Features
 
     📺 Multi-Monitor Blackout: Automatically spans all connected displays. Uses the Windows Virtual Screen API to ensure no "leaks" on secondary monitors.
@@ -18,6 +20,7 @@ Privacy Guard Pro is a high-security system lockdown utility for Windows designe
     ⌨️ Kernel-Level Feel: Blocks Win+D, Alt+Tab, Win+R, and Ctrl+Esc. Continuously terminates Task Manager while locked.
 
     🚀 tray stealth: Minimizes to the System Tray to keep your taskbar clean while staying vigilant in the background.
+
 
 🚀 Installation & Build
 1. Environment Setup
@@ -36,6 +39,7 @@ To create the standalone executable, use the following PyInstaller command (ensu
 ```Bash
 pyinstaller --noconsole --onefile --uac-admin --clean --icon="guard.ico" --name="PrivacyGuardPro" main.py
 ```
+
 🛠️ Technical Architecture
 
     Language: Python 3.14+
@@ -70,5 +74,6 @@ There is no "backdoor" if you lose your password, a hard reboot is required.
 📄 License & Copyright
 
 Copyright © 2026 hysspy Licensed under the MIT License. See LICENSE for more details.
+
 
 
