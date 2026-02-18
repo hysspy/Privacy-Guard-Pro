@@ -14,14 +14,13 @@ Privacy Guard Pro is a high-security system lockdown utility for Windows designe
 
     ⌨️ Kernel-Level Feel: Blocks Win+D, Alt+Tab, Win+R, and Ctrl+Esc. Continuously terminates Task Manager while locked.
 
-    tray stealth: Minimizes to the System Tray to keep your taskbar clean while staying vigilant in the background.
+    🚀 tray stealth: Minimizes to the System Tray to keep your taskbar clean while staying vigilant in the background.
 
 🚀 Installation & Build
 1. Environment Setup
 
 Clone the repository and install the dependencies:
 Bash
-
 git clone https://github.com/hysspy/Privacy-Guard-Pro.git
 cd Privacy-Guard-Pro
 pip install -r requirements.txt
@@ -30,7 +29,6 @@ pip install -r requirements.txt
 
 To create the standalone executable, use the following PyInstaller command (ensure you are in an Admin terminal):
 Bash
-
 pyinstaller --noconsole --onefile --uac-admin --clean --icon="guard.ico" --name="PrivacyGuardPro" main.py
 
 🛠️ Technical Architecture
@@ -59,5 +57,6 @@ pyinstaller --noconsole --onefile --uac-admin --clean --icon="guard.ico" --name=
 
 Use at your own risk. This software interacts with low-level system processes. The author (hysspy) is not responsible for any forgotten passwords or system instability. There is no "backdoor"—if you lose your password, a hard reboot is required.
 📄 License & Copyright
+
 
 Copyright © 2026 hysspy Licensed under the MIT License. See LICENSE for more details.
