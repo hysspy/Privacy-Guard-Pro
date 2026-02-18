@@ -20,17 +20,19 @@ Privacy Guard Pro is a high-security system lockdown utility for Windows designe
 1. Environment Setup
 
 Clone the repository and install the dependencies:
-Bash
+```Bash
 git clone https://github.com/hysspy/Privacy-Guard-Pro.git
-cd Privacy-Guard-Pro
-pip install -r requirements.txt
 
+cd Privacy-Guard-Pro
+
+pip install -r requirements.txt
+```
 2. Compilation (Production EXE)
 
 To create the standalone executable, use the following PyInstaller command (ensure you are in an Admin terminal):
-Bash
+```Bash
 pyinstaller --noconsole --onefile --uac-admin --clean --icon="guard.ico" --name="PrivacyGuardPro" main.py
-
+```
 🛠️ Technical Architecture
 
     Language: Python 3.14+
@@ -53,10 +55,16 @@ pyinstaller --noconsole --onefile --uac-admin --clean --icon="guard.ico" --name=
 
     Unlock: Type your password and press Enter. If you fail, the app will begin capturing photos and blinking red.
 
+
 ⚠️ Disclaimer
 
-Use at your own risk. This software interacts with low-level system processes. The author (hysspy) is not responsible for any forgotten passwords or system instability. There is no "backdoor"—if you lose your password, a hard reboot is required.
+Use at your own risk. 
+This software interacts with low-level system processes. 
+The author (hysspy) is not responsible for any forgotten passwords or system instability. 
+There is no "backdoor" if you lose your password, a hard reboot is required.
+
+
 📄 License & Copyright
 
-
 Copyright © 2026 hysspy Licensed under the MIT License. See LICENSE for more details.
+
